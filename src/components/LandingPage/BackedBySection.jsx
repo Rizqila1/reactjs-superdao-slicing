@@ -19,14 +19,14 @@ export default function BackedBySection() {
     <>
       <section className="relative flex justify-center items-center mb-14">
         <div className="relative px-28">
-          <h1 className="text-5xl font-bold">Backed By</h1>
+          <h1 className="lg:text-5xl text-4xl font-bold">Backed By</h1>
           <div className="absolute right-0 -top-10">
             <BlueYellowParticlesSVG />
           </div>
         </div>
       </section>
 
-      <section className="flex items-center gap-4 mb-10">
+      <section className="flex flex-wrap justify-center items-center gap-4 mb-10">
         <Card className="flex justify-center items-center w-fit py-11 px-12">
           <img
             src={AllianceLogo}
@@ -68,7 +68,7 @@ export default function BackedBySection() {
         </Card>
       </section>
 
-      <section className="flex items-center gap-4">
+      <section className="flex flex-wrap justify-center items-center gap-4">
         <Card className="flex justify-center items-center w-fit py-11 px-12">
           <img
             src={GreatoaksLogo}

@@ -7,11 +7,15 @@ import Button from "../Button";
 export default function AllTheToolsSection() {
   return (
     <>
-      <section className="relative flex justify-center items-center mb-10">
-        <div className="absolute left-80 bottom-8">
-          <BlueYellowParticlesSVG />
+      <section className="relative flex justify-center items-center mb-11">
+        <div className="relative lg:px-36 px-20">
+          <h1 className="lg:text-5xl text-4xl font-bold text-center">
+            All the tools in one app
+          </h1>
+          <div className="absolute left-0 -top-7">
+            <BlueYellowParticlesSVG />
+          </div>
         </div>
-        <h1 className=" text-5xl font-bold">All the tools in one app</h1>
       </section>
 
       <section className="mb-11 px-40">

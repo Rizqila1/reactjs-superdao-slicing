@@ -5,14 +5,14 @@ import GroupWeeklySVG from "../../utils/svg/GroupWeekly";
 
 export default function WeeklyDigestSection() {
   return (
-    <section className="flex justify-center items-center">
+    <section className="flex justify-center items-center text-center">
       <Card className="relative flex flex-col justify-center items-center px-4 py-10 w-[80%] rounded-xl">
         <GroupWeeklySVG className="absolute z-0 w-full h-full" />
-        <Card.Title className="text-5xl font-bold mb-11 z-10">
+        <Card.Title className="lg:text-5xl text-4xl font-bold lg:mb-11 mb-5 z-10">
           Weekly Digest
         </Card.Title>
         <Card.Body className="flex flex-col z-10">
-          <h4 className="text-[#9AAFC3] font-semibold text-4xl mb-16">
+          <h4 className="text-[#9AAFC3] font-semibold lg:text-4xl text-3xl lg:mb-16 mb-12">
             Latest news in DAOs and Web3
           </h4>
 

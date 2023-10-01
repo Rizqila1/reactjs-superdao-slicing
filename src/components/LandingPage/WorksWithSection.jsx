@@ -11,17 +11,21 @@ import OpenSeaLogoSVG from "../../utils/svg/OpenSeaLogo";
 export default function WorkWithSection() {
   return (
     <>
-      <section className="relative flex justify-center mb-11">
-        <h1 className="text-5xl font-bold">Works With</h1>
-        <div className="absolute right-[490px] bottom-8">
-          <BluePurpleParticlesSVG />
+      <section className="relative flex justify-center items-center mb-11">
+        <div className="relative lg:px-36 px-20">
+          <h1 className="lg:text-5xl text-4xl font-bold text-center">
+            Works With
+          </h1>
+          <div className="absolute left-0 -top-8">
+            <BluePurpleParticlesSVG />
+          </div>
         </div>
       </section>
 
       <div align="center" className="mb-11">
         <section className="grid lg:grid-cols-6 grid-cols-3 gap-6 w-fit">
           <div className="flex flex-col justify-center items-center">
-            <Card className="flex justify-center items-center bg-cardbg border-2 border-cardborder rounded-[40px] w-40 h-40">
+            <Card className="flex justify-center items-center bg-cardbg border-2 border-cardborder lg:rounded-[40px] lg:w-40 lg:h-40 rounded-[20px] w-32 h-32">
               <Card.Body>
                 <EthereumLogoSVG />
               </Card.Body>
@@ -30,7 +34,7 @@ export default function WorkWithSection() {
           </div>
 
           <div className="flex flex-col justify-center items-center">
-            <Card className="flex justify-center items-center bg-cardbg border-2 border-cardborder rounded-[40px] w-40 h-40">
+            <Card className="flex justify-center items-center bg-cardbg border-2 border-cardborder lg:rounded-[40px] lg:w-40 lg:h-40 rounded-[20px] w-32 h-32">
               <Card.Body>
                 <PolygonLogoSVG />
               </Card.Body>
@@ -39,7 +43,7 @@ export default function WorkWithSection() {
           </div>
 
           <div className="flex flex-col justify-center items-center">
-            <Card className="flex justify-center items-center bg-cardbg border-2 border-cardborder rounded-[40px] w-40 h-40">
+            <Card className="flex justify-center items-center bg-cardbg border-2 border-cardborder lg:rounded-[40px] lg:w-40 lg:h-40 rounded-[20px] w-32 h-32">
               <Card.Body>
                 <GnosisSafeLogoSVG />
               </Card.Body>
@@ -48,7 +52,7 @@ export default function WorkWithSection() {
           </div>
 
           <div className="flex flex-col justify-center items-center">
-            <Card className="flex justify-center items-center bg-cardbg border-2 border-cardborder rounded-[40px] w-40 h-40">
+            <Card className="flex justify-center items-center bg-cardbg border-2 border-cardborder lg:rounded-[40px] lg:w-40 lg:h-40 rounded-[20px] w-32 h-32">
               <Card.Body>
                 <SnapshotLogoSVG />
               </Card.Body>
@@ -57,7 +61,7 @@ export default function WorkWithSection() {
           </div>
 
           <div className="flex flex-col justify-center items-center">
-            <Card className="flex justify-center items-center bg-cardbg border-2 border-cardborder rounded-[40px] w-40 h-40">
+            <Card className="flex justify-center items-center bg-cardbg border-2 border-cardborder lg:rounded-[40px] lg:w-40 lg:h-40 rounded-[20px] w-32 h-32">
               <Card.Body>
                 <ENSLogoSVG />
               </Card.Body>
@@ -66,7 +70,7 @@ export default function WorkWithSection() {
           </div>
 
           <div className="flex flex-col justify-center items-center">
-            <Card className="flex justify-center items-center bg-cardbg border-2 border-cardborder rounded-[40px] w-40 h-40">
+            <Card className="flex justify-center items-center bg-cardbg border-2 border-cardborder lg:rounded-[40px] lg:w-40 lg:h-40 rounded-[20px] w-32 h-32">
               <Card.Body>
                 <OpenSeaLogoSVG />
               </Card.Body>

@@ -5,14 +5,16 @@ export default function EndContentSection() {
   return (
     <>
       <div className="flex flex-col justify-center items-center" align="center">
-        <h1 className="text-5xl font-bold mb-10">What's your DAO idea?</h1>
-        <h1 className="text-5xl text-customgrey font-bold mb-10">
+        <h1 className="lg:text-5xl text-4xl font-bold mb-10 text-center">
+          What's your DAO idea?
+        </h1>
+        <h1 className="lg:text-5xl text-4xl text-customgrey font-bold mb-10">
           Let's chat and see how we can help
         </h1>
       </div>
 
-      <div className="flex justify-center">
-        <Button className="bg-[#FFC803] rounded-2xl me-10 w-72">
+      <div className="flex flex-wrap justify-center gap-5">
+        <Button className="bg-[#FFC803] rounded-2xl w-72">
           <Card className="flex items-center justify-center border-0">
             <div
               className="w-[52px] h-[52px] rounded-xl me-5 flex justify-center items-center"

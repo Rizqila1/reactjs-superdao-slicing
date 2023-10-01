@@ -12,15 +12,20 @@ export default function DaoMenuSection() {
       <div className="flex justify-center mb-28">
         <DownArrowSVG />
       </div>
-      <section className="relative flex justify-center items-center text-center leading-[82px] mb-11">
-        <div className="absolute left-60 bottom-3">
-          <ParticlesSVG />
+
+      <section className="relative flex justify-center items-center mb-14">
+        <div className="relative lg:px-36 px-32">
+          <div className="absolute lg:left-0 left-12 -top-8">
+            <ParticlesSVG />
+          </div>
+          <h1 className="lg:text-5xl text-4xl font-bold text-center">
+            Ready for every project
+          </h1>
         </div>
-        <h3 className="text-5xl font-extrabold">Ready for every project</h3>
       </section>
 
       {/* BUTTONS MENU */}
-      <section className="mb-8 px-52">
+      <section className="mb-8 lg:px-[120px] px-10">
         <div className="flex flex-wrap justify-center gap-5">
           <Button
             variant="dark"
