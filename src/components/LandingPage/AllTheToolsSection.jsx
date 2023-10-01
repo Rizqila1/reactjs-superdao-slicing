@@ -20,16 +20,24 @@ export default function AllTheToolsSection() {
 
       <section className="mb-11 px-40">
         <div className="flex flex-wrap justify-center gap-10">
-          <h4 className="text-lg font-semibold text-[#FFC803]">
+          <h4 className="text-lg font-semibold text-[#FFC803] text-center">
             NFT membership
           </h4>
-          <h4 className="text-lg font-semibold text-customgrey">
+          <h4 className="text-lg font-semibold text-customgrey text-center">
             Member directory
           </h4>
-          <h4 className="text-lg font-semibold text-customgrey">Treasury</h4>
-          <h4 className="text-lg font-semibold text-customgrey">Feed</h4>
-          <h4 className="text-lg font-semibold text-customgrey">Governance</h4>
-          <h4 className="text-lg font-semibold text-customgrey">App Store</h4>
+          <h4 className="text-lg font-semibold text-customgrey text-center">
+            Treasury
+          </h4>
+          <h4 className="text-lg font-semibold text-customgrey text-center">
+            Feed
+          </h4>
+          <h4 className="text-lg font-semibold text-customgrey text-center">
+            Governance
+          </h4>
+          <h4 className="text-lg font-semibold text-customgrey text-center">
+            App Store
+          </h4>
         </div>
       </section>
 
